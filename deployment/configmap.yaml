@@ -7,11 +7,3 @@ data:
   DB_USER: "tm-udacity-coworking-db-user"
   DB_HOST: "postgresql-service"
   DB_PORT: "5421"
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: dbpassword
-type: Opaque
-data:
-  dbpassword: dG0tdWRhY2l0eS1jb3dvcmtpbmctZGItdVI=
