@@ -14,4 +14,4 @@ COPY analytics/config.py /app/config.py
 
 EXPOSE 5153
 
-CMD ["python3", "app.py"]
+CMD ["python3", "/app/app.py"]
