@@ -6,4 +6,4 @@ data:
   DB_NAME: "tm-udacity-coworking-db"
   DB_USER: "tm-udacity-coworking-db-user"
   DB_HOST: "postgresql-service"
-  DB_PORT: "5421"
+  DB_PORT: "5432"
